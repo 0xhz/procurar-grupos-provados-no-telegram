@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('telegram-background.jpg'); /* O papel de parede do Telegram */
+    background-size: cover;
+    color: #2a2f3a;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0088cc;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bb5;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#group-list {
+    margin-top: 10px;
+}
+
+.group-item {
+    background-color: #e9f5ff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.group-item h3 {
+    color: #0088cc;
+}
+
+#group-count {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
